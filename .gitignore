@@ -8,7 +8,7 @@
 *.sublime*
 node_modules/
 npm-debug.*
-source/css/*.css
-source/css/*.map
+app/css/*.css
+app/css/*.map
 Thumbs.db
 dist/
