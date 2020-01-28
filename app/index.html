@@ -10,7 +10,30 @@
 </head>
 <body class="body">
 	<header class="page-header">
-		<a href="#" class="page-header-logo">Avenue <span>Fashion</span></a>
+		<div class="page-main__top-container">
+			<section class="account">
+				<h2 class="visually-hidden">Currency and registration</h2>
+
+				<label class="account__currency"> 
+					<select name="account__currency-list">
+						<option value="GBP">GBP</option>
+						<option value="UAH">UAH</option>
+						<option value="EUR">EUR</option>
+					</select>
+				</label>
+
+				<div class="account__settings">
+					<button class="account__register" type="button">Register</button>
+					<button class="account__sign-in" type="button">Sign in</button>
+				</div>
+
+				<div class="account__cart">
+					<p class="account__cart-info">empty</p>
+				</div>
+			</section>
+		</div>
+
+		<a href="index.html" class="page-header-logo">Avenue <span>Fashion</span></a>
 
 		<nav class="page-header__nav main-nav">
 			<ul class="main-nav__list">
@@ -111,7 +134,7 @@
 						</article>
 					</div>
 				</li>
-				<li class="main-nav__item"><a class="main-nav__link" href="#">The brand</a></li>
+				<li class="main-nav__item"><a class="main-nav__link" href="brand.html">The brand</a></li>
 				<li class="main-nav__item"><a class="main-nav__link" href="#">Local stores</a></li>
 				<li class="main-nav__item"><a class="main-nav__link" href="#">Look book</a></li>
 			</ul>
@@ -124,29 +147,6 @@
 
 	<main class="page-main">
 		<h1 class="visually-hidden">High-quality clothes, best price. Welcome to Avenue online</h1>
-
-		<div class="page-main__top-container">
-		<section class="account">
-			<h2 class="visually-hidden">Currency and registration</h2>
-
-			<label class="account__currency"> 
-				<select name="account__currency-list">
-					<option value="GBP">GBP</option>
-					<option value="UAH">UAH</option>
-					<option value="EUR">EUR</option>
-				</select>
-			</label>
-
-			<div class="account__settings">
-				<button class="account__register" type="button">Register</button>
-				<button class="account__sign-in" type="button">Sign in</button>
-			</div>
-
-			<div class="account__cart">
-				<p class="account__cart-info">empty</p>
-			</div>
-		</section>
-		</div>
 
 		<section class="mens-collection">
 			<h2 class="mens-collection__header">Ave</h2>
