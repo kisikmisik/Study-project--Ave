@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Product details</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="preload" href="css/style.css" as="style">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+	<header class="page-header">
+		<div class="page-main__top-container">
+			<section class="account">
+				<h2 class="visually-hidden">Currency and registration</h2>
+
+				<label class="account__currency">
+					<span>Currency:</span>
+					<select name="account__currency-list">
+						<option value="GBP">GBP</option>
+						<option value="UAH">UAH</option>
+						<option value="EUR">EUR</option>
+					</select>
+				</label>
+
+				<div class="account__settings">
+					<a class="account__register" href="register.html">Register</a>
+					<a class="account__sign-in" href="register.html">Sign in</a>
+				</div>
+
+				<div class="account__cart">
+					<p class="account__cart-info">empty</p>
+				</div>
+			</section>
+		</div>
+
+		<a href="index.html" class="page-header-logo">Avenue <span>Fashion</span></a>
+
+		<nav class="page-header__nav main-nav">
+			<ul class="main-nav__list">
+				<li class="main-nav__item">
+					<a class="main-nav__link" href="#">Mans</a>
+
+					<div class="main-nav__man-wrapper submenu">
+						<h3 class="submenu__header">Casuals</h3>
+						<ul class="submenu__list">
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Jackets</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Hoodies & Sweatshots</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Polo shirts</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Sportswear</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Trousers & Chinos</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">T-shirts</a>
+							</li>
+						</ul>
+
+						<h3 class="submenu__header">Formal</h3>
+						<ul class="submenu__list">
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Jackets</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Shorts</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Suits</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Trousers</a>
+							</li>
+						</ul>
+
+						<article class="submenu__discount advert">
+							<p class="advert__text">Autumn sale!</p>
+							<p class="advert__text">Up to 50% off</p>
+						</article>
+					</div>
+
+				</li>
+				<li class="main-nav__item">
+					<a class="main-nav__link" href="#">Womens</a>
+
+					<div class="main-nav__man-wrapper submenu submenu--woman">
+						<h3 class="submenu__header">Casuals</h3>
+						<ul class="submenu__list">
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Jackets</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Hoodies & Sweatshots</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Polo shirts</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Sportswear</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Trousers & Chinos</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">T-shirts</a>
+							</li>
+						</ul>
+
+						<h3 class="submenu__header">Formal</h3>
+						<ul class="submenu__list">
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Jackets</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Shorts</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Suits</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Trousers</a>
+							</li>
+						</ul>
+
+						<article class="submenu__discount fall-sale">
+							<p class="fall-sale__text">Autumn sale!</p>
+							<p class="fall-sale__text">Up to 50% off</p>
+						</article>
+					</div>
+				</li>
+				<li class="main-nav__item"><a class="main-nav__link" href="brand.html">The brand</a></li>
+				<li class="main-nav__item"><a class="main-nav__link" href="stores.html">Local stores</a></li>
+				<li class="main-nav__item">
+					<a class="main-nav__link" href="lookbook.html">Look book</a>
+
+					<div class="main-nav__man-wrapper submenu submenu--our">
+						<h3 class="submenu__header">Our lookbook</h3>
+						<ul class="submenu__list">
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Latest posts (mixed)</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Men's lookbook</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Woman's lookbook</a>
+							</li>
+						</ul>
+
+						<h3 class="submenu__header">Your lookbook</h3>
+						<ul class="submenu__list">
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">View and edit</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Share</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">Delete</a>
+							</li>
+						</ul>
+
+						<article class="submenu__discount fall-sale">
+							<p class="fall-sale__text">Autumn sale!</p>
+							<p class="fall-sale__text">Up to 50% off</p>
+						</article>
+					</div>
+				</li>
+			</ul>
+		</nav>
+
+		<form action="#" method="get" class="main-nav__search">
+			<input type="search" placeholder="Search..">
+		</form>
+	</header>
+
+	<main class="page-main">
+		<h1 class="main-header">
+			<span class="main-header__logo"><span>Product</span> view</span>
+			<span class="main-header__text">Mens - casuals - hoodies & sweatshirts - AVE classic sweatshirt</span>
+		</h1>
+
+		<section class="selected">
+			<div class="selected__text-wrapper">
+				<h2 class="selected__title">AVE classic sweatshirt</h2>
+
+				<div class="selected__top-wrapper">
+					<div class="selected__stars-wrapper">
+						<img src="#" alt="filled star">
+						<img src="#" alt="filled star">
+						<img src="#" alt="filled star">
+						<img src="#" alt="filled star">
+						<img src="#" alt="empty star">
+					</div>
+
+					<p class="selected__reviews-count">0 Review(s)</p>
+					<p class="selected__review-add"><a href="#">Add a review</a></p>
+
+					<div class="selected__social-wrapper">
+						<span class="selected__share">Share:</span>
+						<ul class="selected__social-list">
+							<li class="selected__fb">
+								<a href="#"><img src="#" alt="facebook link"></a>
+							</li>
+							<li class="selected__twitter">
+								<a href="#"><img src="#" alt="twitter link"></a>
+							</li>
+							<li class="selected__google">
+								<a href="#"><img src="#" alt="google plus link"></a>
+							</li>
+							<li class="selected__pinterest">
+								<a href="#"><img src="#" alt="pinterest link"></a>
+							</li>
+							<li class="selected__insta">
+								<a href="#"><img src="#" alt="instagram link"></a>
+							</li>
+							<li class="selected__mail">
+								<a href="mailto:700mmr@gmail.com"><img src="#" alt="mail to us"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<p class="selected__price">
+					<span class="selected__old-price"><sup>£</sup>107</span>
+					<span class="selected__new-price"><sup>£</sup>89.99</span>
+				</p>
+
+				<div class="selected__middle-wrapper">
+					<p class="selected__info"><span>Availability:</span> In stock</p>
+					<p class="selected__info"><span>Product code:</span> #499577</p>
+					<p class="selected__info">
+						<span>Tegs:</span><a href="#"> Classic,</a><a href="#"> Casual,</a>
+						<a href="#"> V-neck,</a><a href="#"> Loose,</a>
+					</p>
+				</div>
+
+				<div class="selected__bottom-wrapper">
+					<p class="selected__text">
+						Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh 		suspendisse est congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec 	pulvinar tempor lorem a pretium justo interdum.
+					</p>
+					<ul class="selected__text-list">
+						<li>Elasticated cuffs</li>
+						<li>Casual fit</li>
+						<li>100% cotton</li>
+						<li>Free shiping with 4 days delivery</li>
+					</ul>
+				</div>
+
+				<form action="#" class="selected__form">
+					<label class="selected__input-wrapper">
+						<span>Colour</span>
+						<select name="account__form-list">
+							<option value="black">Black</option>
+							<option value="white">White</option>
+							<option value="red">Red</option>
+						</select>
+					</label>
+
+					<label class="selected__input-wrapper">
+						<span>Size</span>
+						<select name="account__form-list">
+							<option value="small">S</option>
+							<option value="medium">M</option>
+							<option value="big">L</option>
+						</select>
+					</label>
+
+					<label class="selected__input-wrapper">
+						<span>QT</span>
+						<input type="number" value="1">
+					</label>
+
+					<button class="selected__submit" type="submit">Add to cart</button>
+					<button class="selected__look-btn" type="button">Add to Lookbook</button>
+					<button class="selected__compare" type="button">Add to compare</button>
+				</form>
+
+				<div class="selected__bottom-buttons">
+					<button class="selected__bottom-desc-btn" type="button">Description</button>
+					<button class="selected__bottom-video-btn" type="button">Video</button>
+					<button class="selected__bottom-size-btn" type="button">Size & Specs</button>
+					<button class="selected__bottom-delivery-btn" type="button">Delivery & Returns</button>
+					<button class="selected__bottom-reviews-btn" type="button">Reviews</button>
+				</div>
+
+				<div class="selected__bottom-info-wrapper">
+					<div class="selected__bottom-desc">
+						<h3 class="selected__bottom-header">Nunc egestas posuere enim, eu maximus erat posuere eget</h3>
+						<p class="selected__bottom-text">
+							Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
+							<br>
+							Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.
+						</p>
+					</div>
+
+					<div class="selected__bottom-video-btn">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/y1r12OYDY3w" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+
+					<div class="selected__bottom-size">
+						<p>You are lucky! We have all sizes!</p>
+					</div>
+
+					<div class="selected__bottom-delivery">
+						<p>Free shiping to almost all of the countries, exception is China. 
+						There is no delivery option at all.</p>
+					</div>
+
+					<div class="selected__bottom-reviews">
+						<p>There is no reviews yet.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>	
+	</main>
+
+	<footer class="page-footer">
+		<nav class="page-footer__nav footer-nav">
+			<div class="footer-nav__block">
+				<h3 class="footer-nav__block-label">Information</h3>
+				<ul class="footer-nav__list">
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">The brand</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Local stores</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Customer service</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Privacy & cookies</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Site map</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-nav__block">
+				<h3 class="footer-nav__block-label">Why buy from us</h3>
+				<ul class="footer-nav__list">
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Shipping & returns</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Secure shopping</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Testimonials</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Award winning</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Ethical trading</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-nav__block">
+				<h3 class="footer-nav__block-label">Your account</h3>
+				<ul class="footer-nav__list">
+					<li class="footer-nav__item"><a href="register.html" class="footer-nav__link">Sign in</a></li>
+					<li class="footer-nav__item"><a href="register.html" class="footer-nav__link">Register</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">View cart</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">View your lookbook</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Track an orded</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Update information</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-nav__block">
+				<h3 class="footer-nav__block-label">Lookbook</h3>
+				<ul class="footer-nav__list">
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Latest posts</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Men's lookbook</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Woman's lookbook</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Lookbooks RSS feed</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">View your lookbook</a></li>
+					<li class="footer-nav__item"><a href="#" class="footer-nav__link">Delete your lookbook</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-nav__block">
+				<h3 class="footer-nav__block-label">Contact details</h3>
+				<p class="footer-nav__adress">Head Office: Avenue Fashion, 80-182 Regent Street, London.</p>
+				<p class="footer-nav__phone">Telephone:<a href="tel:0123-456-789"> +48 537-118-414</a></p>
+				<p class="footer-nav__email">Email:<a href="mailto:700mmr@gmail.com"> 700mmr@gmail.com</a></p>
+			</div>
+		</nav>
+
+		<div class="footer-nav__middle">
+			<article class="footer-nav__awards advert">
+				<p class="advert__text">Award winner</p>
+				<p class="advert__text">Fashion awards 2016</p>
+			</article>
+
+			<article class="footer-nav__social social">
+				<h3 class="visually-hidden">We are on media</h3>
+				<a href="#" class="social__fb"><img src="#" alt="facebook link"></a>
+				<a href="#" class="social__twitter"><img src="#" alt="twitter link"></a>
+				<a href="#" class="social__insta"><img src="#" alt="instagram link"></a>
+				<a href="#" class="social__pinterest"><img src="#" alt="pinterest link"></a>
+			</article>	
+		</div>
+
+		<div class="footer-nav__bottom">
+			<p class="footer-nav__bottom-copyrights">© 2016 Avenue Fashion™</p>
+
+			<div class="footer-nav__developers">
+				<span class="footer-nav__developer">Design by RobbyDesigns.com</span>
+				<span class="footer-nav__developer">Dev by 
+					<a href="https://github.com/kisikMisik">Vladimir Nofenko</a>
+				</span>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
