@@ -1,0 +1,15 @@
+.top-items {
+    padding-top: 60px;
+    border-top: 1px solid #eeeeee;
+}
+
+.top-items__wrapper {
+    display: grid;
+    grid-template-areas: 
+    "a b c c"
+    "e e c c"
+    "e e f g";
+    gap: 30px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #eeeeee;
+}

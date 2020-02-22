@@ -1,0 +1,53 @@
+ @font-face {
+    font-family: "monserat-regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "monserat-bold";
+    src: url("../fonts/Montserrat-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "monserat-light";
+    src: url("../fonts/Montserrat-Light.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "roboto-regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "awesome";
+    src: url("../fonts/awesome.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "monserat-semi-bold";
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+ul {
+  list-style: none;
+  padding-left: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-family: "monserat-regular", Arial, sans-serif;
+  font-size: 13px;
+}

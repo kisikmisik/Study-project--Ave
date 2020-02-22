@@ -1,0 +1,71 @@
+.account {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+}
+
+.account__currency {
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        right: -12px;
+        top: 3px;
+        
+    }
+}
+
+.account__currency-list {
+    background-color: #333333;
+    color: $font-grey;
+    border: none;
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 50px;
+    background-image: url("../../img/down-arrow.svg");
+    background-size: 10px 10px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.account__settings {
+    margin-right: 80px;
+    margin-left: 670px;
+}
+
+.account__register {
+    margin-right: 35px;
+}
+
+.account__cart {
+    height: 100%;
+    width: 145px;
+    background-color: $color-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.account__cart-img {
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+.account__cart-info {
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-image: url("../../img/down-arrow-white.svg");
+        background-size: contain;
+        right: -17px;
+        top: 3px;
+    }
+}

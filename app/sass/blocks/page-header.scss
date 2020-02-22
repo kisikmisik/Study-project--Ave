@@ -1,0 +1,26 @@
+.page-header__top-container {
+    background-color: #333333;
+    width: 100%;
+    position: fixed;
+    color: $font-grey;
+    z-index: 10;
+}
+
+.page-header__bottom-container {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+
+.page-header__logo {
+    font-size: 24px;
+    font-family: "monserat-bold", Arial, sans-serif;
+    text-transform: uppercase;
+    z-index: 3;
+}
+
+.page-header__logo span {
+    font-family: "monserat-regular", Arial, sans-serif;
+}

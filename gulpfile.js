@@ -9,15 +9,15 @@ var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
 
 gulp.task("css", function () {
-  return gulp.src("source/sass/style.scss")
-    .pipe(plumber())
-    .pipe(sourcemap.init())
+  return gulp.src("app/sass/style.scss")
+    // .pipe(plumber())
+    // .pipe(sourcemap.init())
     .pipe(sass())
-    .pipe(postcss([
-      autoprefixer()
-    ]))
-    .pipe(sourcemap.write("."))
-    .pipe(gulp.dest("dist/css"))
+    // .pipe(postcss([
+    //   autoprefixer()
+    // ]))
+    // .pipe(sourcemap.write("."))
+    .pipe(gulp.dest("app/css/"))
 });
 
 gulp.task("html", function () {
@@ -50,4 +50,4 @@ gulp.task("server", function () {
   gulp.watch("app/*.html").on('change', server.reload);
 });
 
-gulp.task("start", gulp.series("server", "css"));
+gulp.task("start", gulp.series("server"));

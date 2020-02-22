@@ -10,13 +10,13 @@
 </head>
 <body class="body">
 	<header class="page-header">
-		<div class="page-main__top-container">
-			<section class="account">
+		<div class="page-header__top-container">
+			<section class="account container-small">
 				<h2 class="visually-hidden">Currency and registration</h2>
 
 				<label class="account__currency">
 					<span>Currency:</span>
-					<select name="account__currency-list">
+					<select class="account__currency-list">
 						<option value="GBP">GBP</option>
 						<option value="UAH">UAH</option>
 						<option value="EUR">EUR</option>
@@ -29,167 +29,199 @@
 				</div>
 
 				<div class="account__cart">
+					<img src="img/cart-white.svg" alt="cart icon" class="account__cart-img" width="20" height="20">
 					<p class="account__cart-info">empty</p>
 				</div>
 			</section>
 		</div>
+		<div class="page-header__bottom-container container">
+			<a href="index.html" class="page-header__logo">Avenue <span>Fashion</span></a>
 
-		<a href="index.html" class="page-header-logo">Avenue <span>Fashion</span></a>
+			<nav class="page-header__nav main-nav">
+				<ul class="main-nav__list">
+					<li class="main-nav__item">
+						<a class="main-nav__link" href="#">Mans</a>
 
-		<nav class="page-header__nav main-nav">
-			<ul class="main-nav__list">
-				<li class="main-nav__item">
-					<a class="main-nav__link" href="#">Mans</a>
+						<div class="main-nav__man-wrapper submenu">
+							<div class="submenu__wrapper">
+								<h3 class="submenu__header">Casuals</h3>
+								<ul class="submenu__list">
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Jackets</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Hoodies & Sweatshots</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Polo shirts</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Sportswear</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Trousers & Chinos</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">T-shirts</a>
+									</li>
+								</ul>
+							</div>
 
-					<div class="main-nav__man-wrapper submenu">
-						<h3 class="submenu__header">Casuals</h3>
-						<ul class="submenu__list">
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Jackets</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Hoodies & Sweatshots</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Polo shirts</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Sportswear</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Trousers & Chinos</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">T-shirts</a>
-							</li>
-						</ul>
+							<div class="submenu__wrapper">
+								<h3 class="submenu__header">Formal</h3>
+								<ul class="submenu__list">
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Jackets</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Shorts</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Suits</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Trousers</a>
+									</li>
+								</ul>
+							</div>
 
-						<h3 class="submenu__header">Formal</h3>
-						<ul class="submenu__list">
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Jackets</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Shorts</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Suits</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Trousers</a>
-							</li>
-						</ul>
+							<article class="submenu__discount advert">
+								<p class="advert__text">Autumn sale!</p>
+								<p class="advert__text">Up to 50% off</p>
+							</article>
+						</div>
 
-						<article class="submenu__discount advert">
-							<p class="advert__text">Autumn sale!</p>
-							<p class="advert__text">Up to 50% off</p>
-						</article>
-					</div>
+					</li>
+					<li class="main-nav__item">
+						<a class="main-nav__link" href="#">Womens</a>
 
-				</li>
-				<li class="main-nav__item">
-					<a class="main-nav__link" href="#">Womens</a>
+						<div class="main-nav__man-wrapper submenu submenu--woman">
+							<div class="submenu__wrapper">
+								<h3 class="submenu__header">Casuals</h3>
+								<ul class="submenu__list">
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Jackets</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Hoodies & Sweatshots</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Polo shirts</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Sportswear</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Trousers & Chinos</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">T-shirts</a>
+									</li>
+								</ul>
+							</div>
+							<div class="submenu__wrapper">
+								<h3 class="submenu__header">Formal</h3>
+								<ul class="submenu__list">
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Jackets</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Shorts</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Suits</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Trousers</a>
+									</li>
+								</ul>
+							</div>
 
-					<div class="main-nav__man-wrapper submenu submenu--woman">
-						<h3 class="submenu__header">Casuals</h3>
-						<ul class="submenu__list">
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Jackets</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Hoodies & Sweatshots</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Polo shirts</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Sportswear</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Trousers & Chinos</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">T-shirts</a>
-							</li>
-						</ul>
+							<article class="submenu__discount advert">
+								<p class="advert__text">Autumn sale!</p>
+								<p class="advert__text">Up to 50% off</p>
+							</article>
+						</div>
+					</li>
+					<li class="main-nav__item"><a class="main-nav__link" href="brand.html">The brand</a></li>
+					<li class="main-nav__item">
+						<a class="main-nav__link" href="stores.html">Local stores</a>
 
-						<h3 class="submenu__header">Formal</h3>
-						<ul class="submenu__list">
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Jackets</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Shorts</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Suits</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Trousers</a>
-							</li>
-						</ul>
+						<div class="main-nav__man-wrapper submenu submenu--our">
+							<ul class="submenu__list">
+								<li class="submenu__item">
+									<a href="#" class="submenu__link">London</a>
+								</li>
+								<li class="submenu__item">
+									<a href="#" class="submenu__link">New York</a>
+								</li>
+								<li class="submenu__item">
+									<a href="#" class="submenu__link">Paris</a>
+								</li>
+							</ul>	
+						</div>
+					</li>
+					<li class="main-nav__item">
+						<a class="main-nav__link" href="lookbook.html">Look book</a>
 
-						<article class="submenu__discount fall-sale">
-							<p class="fall-sale__text">Autumn sale!</p>
-							<p class="fall-sale__text">Up to 50% off</p>
-						</article>
-					</div>
-				</li>
-				<li class="main-nav__item"><a class="main-nav__link" href="brand.html">The brand</a></li>
-				<li class="main-nav__item"><a class="main-nav__link" href="stores.html">Local stores</a></li>
-				<li class="main-nav__item">
-					<a class="main-nav__link" href="lookbook.html">Look book</a>
+						<div class="main-nav__man-wrapper submenu submenu--our">
 
-					<div class="main-nav__man-wrapper submenu submenu--our">
-						<h3 class="submenu__header">Our lookbook</h3>
-						<ul class="submenu__list">
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Latest posts (mixed)</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Men's lookbook</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Woman's lookbook</a>
-							</li>
-						</ul>
+							<div class="submenu__wrapper">
+								<h3 class="submenu__header">Our lookbook</h3>
+								<ul class="submenu__list">
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Latest posts (mixed)</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Men's lookbook</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Woman's lookbook</a>
+									</li>
+								</ul>
+							</div>
 
-						<h3 class="submenu__header">Your lookbook</h3>
-						<ul class="submenu__list">
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">View and edit</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Share</a>
-							</li>
-							<li class="submenu__item">
-								<a href="#" class="submenu__link">Delete</a>
-							</li>
-						</ul>
+							<div class="submenu__wrapper">
+								<h3 class="submenu__header">Your lookbook</h3>
+								<ul class="submenu__list">
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">View and edit</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Share</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">Delete</a>
+									</li>
+								</ul>
+							</div>
 
-						<article class="submenu__discount fall-sale">
-							<p class="fall-sale__text">Autumn sale!</p>
-							<p class="fall-sale__text">Up to 50% off</p>
-						</article>
-					</div>
-				</li>
-			</ul>
-		</nav>
+							<article class="submenu__discount advert">
+								<p class="advert__text">Autumn sale!</p>
+								<p class="advert__text">Up to 50% off</p>
+							</article>
+						</div>
+					</li>
+				</ul>
+			</nav>
 
-		<form action="#" method="get" class="main-nav__search">
-			<input type="search" placeholder="Search..">
-		</form>
+			<form action="#" method="get" class="main-nav__search">
+				<input type="search" placeholder="Search..">
+			</form>
+		</div>
 	</header>
 
 	<main class="page-main">
 		<h1 class="visually-hidden">High-quality clothes, best price. Welcome to Avenue online</h1>
 
 		<section class="mens-collection">
-			<h2 class="mens-collection__header">Ave</h2>
+			<h2 class="visually-hidden">Ave</h2>
+			<img src="img/home-top-man.jpg" alt="" class="mens-collection__man-img" width="636">
+			<img src="img/home-top-ave.png" alt="" class="mens-collection__ave-img">
 			<a href="#" class="mens-collection__link button">Shop men's collection</a>
 		</section>
 
-		<section class="top-items">
+		<section class="top-items container">
 			<h2 class="visually-hidden">Our best and newest products</h2>
 
 			<div class="top-items__sort sort">
@@ -202,100 +234,148 @@
 			
 			<div class="top-items__wrapper">
 				<article class="top-items__item item">
-					<a class="item__link" href="view.html"><img src="#" alt="" class="item__picture"></a>
+					<a class="item__link" href="view.html">
+						<img src="img/avenue-black-sweater.jpg" alt="" class="item__picture">
+					</a>
 					<p class="item__price"><sup>£</sup>89.99</p>
 
 					<div class="item__info-block">
-						<h3 class="item__name">Black sweater with label Avenue £89.99</h3>
+						<h3 class="item__name">Black sweater with label Avenue <sup>£</sup>89.99</h3>
 						<p class="item__info">Classic black sweater, 100% cotton, casual. All sizes</p>
-						<img src="#" alt="back view of the item" class="item__back-view">
+						<!-- <img src="#" alt="back view of the item" class="item__back-view" > -->
 						<div class="item__action-block">
-							<button class="item__add" type="button">Add to cart</button>
-							<button class="item__like" type="button">I like it</button>
-							<button class="item__buy" type="button">Buy immediately</button>
+							<button class="item__add" type="button">
+								<img src="img/cart-white.svg" class="item__action-icon" alt="buy" width="20" height="20">
+							</button>
+							<button class="item__like" type="button">
+								<img src="img/heart.svg" alt="like" width="18" height="18">
+							</button>
+							<button class="item__buy" type="button">
+								<img src="img/compare.svg" alt="compare" title="compare" width="15" height="15">
+							</button>
 						</div>
 					</div>
 				</article>
 
 				<article class="top-items__item item">
-					<a class="item__link" href="view.html"><img src="#" alt="" class="item__picture"></a>
+					<a class="item__link" href="view.html">
+						<img src="img/monroe-shirt.jpg" alt="" class="item__picture">
+					</a>
 					<p class="item__price"><sup>£</sup>47.50</p>
 
 					<div class="item__info-block">
-						<h3 class="item__name">White t-shirt with picture of Merilyn Monroe £47.50</h3>
+						<h3 class="item__name">White t-shirt with picture of Merilyn Monroe <sup>£</sup>47.50</h3>
 						<p class="item__info">Casual white woman's t-shirt with portrait of Merilyn Monroe, 100% cotton, All sizes</p>
-						<img src="#" alt="back view of the item" class="item__back-view">
+						<!-- <img src="#" alt="back view of the item" class="item__back-view" > -->
 						<div class="item__action-block">
-							<button class="item__add" type="button">Add to cart</button>
-							<button class="item__like" type="button">I like it</button>
-							<button class="item__buy" type="button">Buy immediately</button>
+							<button class="item__add" type="button">
+								<img src="img/cart-white.svg" class="item__action-icon" alt="" width="20" height="20">
+							</button>
+							<button class="item__like" type="button">
+								<img src="img/heart.svg" class="item__action-icon" alt="" width="18" height="18">
+							</button>
+							<button class="item__buy" type="button">
+								<img src="img/compare.svg" class="item__action-icon" alt="compare" title="compare" width="15" height="15">
+							</button>
 						</div>
 					</div>
 				</article>
 
 				<article class="top-items__item item">
-					<a class="item__link" href="view.html"><img src="#" alt="" class="item__picture"></a>
+					<a class="item__link" href="view.html">
+						<img src="img/black-sweater.jpg" alt="" class="item__picture">
+					</a>
 					<p class="item__old-price"><sup>£</sup>107</p>
-					<p class="item__price"><sup>£</sup>89.99</p>
+					<p class="item__price item__price--new"><sup>£</sup>89.99</p>
 
 					<div class="item__info-block">
-						<h3 class="item__name">Classic black sweater £89.99</h3>
+						<h3 class="item__name">Classic black sweater <sup>£</sup>89.99</h3>
 						<p class="item__info">Men's, 100% cotton, All sizes</p>
-						<img src="#" alt="back view of the item" class="item__back-view">
+						<!-- <img src="#" alt="back view of the item" class="item__back-view"> -->
 						<div class="item__action-block">
-							<button class="item__add" type="button">Add to cart</button>
-							<button class="item__like" type="button">I like it</button>
-							<button class="item__buy" type="button">Buy immediately</button>
+							<button class="item__add" type="button">
+								<img src="img/cart-white.svg" class="item__action-icon" alt="" width="20" height="20">
+							</button>
+							<button class="item__like" type="button">
+								<img src="img/heart.svg" class="item__action-icon" alt="" width="18" height="18">
+							</button>
+							<button class="item__compare" type="button">
+								<img src="img/compare.svg" class="item__action-icon" alt="compare" title="compare" width="15" height="15">
+							</button>
 						</div>
 					</div>
 				</article>
 
 				<article class="top-items__item item">
-					<a class="item__link" href="view.html"><img src="#" alt="" class="item__picture"></a>
+					<a class="item__link" href="view.html">
+						<img src="img/abenue-turquoise-sweater.jpg" alt="" class="item__picture">
+					</a>
 					<p class="item__price"><sup>£</sup>69.95</p>
 
 					<div class="item__info-block">
-						<h3 class="item__name">Casual turquoise sweatshot £69.95</h3>
+						<h3 class="item__name">Casual turquoise sweatshot <sup>£</sup>69.95</h3>
 						<p class="item__info">Men's, 100% cotton, All sizes</p>
-						<img src="#" alt="back view of the item" class="item__back-view">
+						<!-- <img src="#" alt="back view of the item" class="item__back-view"> -->
 						<div class="item__action-block">
-							<button class="item__add" type="button">Add to cart</button>
-							<button class="item__like" type="button">I like it</button>
-							<button class="item__buy" type="button">Buy immediately</button>
+							<button class="item__add" type="button">
+								<img src="img/cart-white.svg" alt="" class="item__action-icon" width="20" height="20">
+							</button>
+							<button class="item__like" type="button">
+								<img src="img/heart.svg" alt="" class="item__action-icon" width="18" height="18">
+							</button>
+							<button class="item__compare" type="button">
+								<img src="img/compare.svg" alt="compare" title="compare" class="item__action-icon" width="15" height="15">
+							</button>
 						</div>
 					</div>
 				</article>
 
 				<article class="top-items__item item">
-					<a class="item__link" href="view.html"><img src="#" alt="" class="item__picture"></a>
+					<a class="item__link" href="view.html">
+						<img src="img/orange-shirt.jpg" alt="" class="item__picture">
+					</a>
 					<p class="item__price"><sup>£</sup>29.95</p>
 
 					<div class="item__info-block">
-						<h3 class="item__name">Womens burnt orange casual tee  £29.95</h3>
+						<h3 class="item__name">Womens burnt orange casual tee <sup>£</sup>29.95</h3>
 						<p class="item__info">Classic casual t-shirt for women on the move. 100% cotton.
 							A hard-wearing sports t-shirt with microvent technology.</p>
-						<img src="#" alt="back view of the item" class="item__back-view">
+						<!-- <img src="#" alt="back view of the item" class="item__back-view"> -->
 						<div class="item__action-block">
-							<button class="item__add" type="button">Add to cart</button>
-							<button class="item__like" type="button">I like it</button>
-							<button class="item__buy" type="button">Buy immediately</button>
+							<button class="item__add" type="button">
+								<img src="img/cart-white.svg" class="item__action-icon" alt="" width="20" height="20">
+							</button>
+							<button class="item__like" type="button">
+								<img src="img/heart.svg" class="item__action-icon" alt="" width="18" height="18">
+							</button>
+							<button class="item__compare" type="button">
+								<img src="img/compare.svg" class="item__action-icon" alt="compare" title="compare" width="15" height="15">
+							</button>
 						</div>
 					</div>
 				</article>
 
 				<article class="top-items__item item">
-					<a class="item__link" href="view.html"><img src="#" alt="" class="item__picture"></a>
+					<a class="item__link" href="view.html">
+						<img src="img/ave-green-shirt.jpg" alt="" class="item__picture">
+					</a>
 					<p class="item__price"><sup>£</sup>34.79</p>
 
 					<div class="item__info-block">
-						<h3 class="item__name">Womens colored casual tee £34.79</h3>
+						<h3 class="item__name">Womens colored casual tee <sup>£</sup>34.79</h3>
 						<p class="item__info">T-shirt for women on the move. 100% cotton.
 							A hard-wearing sports t-shirt with microvent technology.</p>
-						<img src="#" alt="back view of the item" class="item__back-view">
+						<!-- <img src="#" alt="back view of the item" class="item__back-view"> -->
 						<div class="item__action-block">
-							<button class="item__add" type="button">Add to cart</button>
-							<button class="item__like" type="button">I like it</button>
-							<button class="item__buy" type="button">Buy immediately</button>
+							<button class="item__add" type="button">
+								<img src="img/cart-white.svg" class="item__action-icon" alt="" width="20" height="20">
+							</button>
+							<button class="item__like" type="button">
+								<img src="img/heart.svg" class="item__action-icon" alt="" width="18" height="18">
+							</button>
+							<button class="item__compare" type="button">
+								<img src="img/compare.svg" class="item__action-icon" alt="compare" title="compare" width="15" height="15">
+							</button>
 						</div>
 					</div>
 				</article>
@@ -311,8 +391,8 @@
 					consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
 					Elementum metus facilisis ut phasellu.
 				</p>
-				<a class="lookbook-item__show button" href="lookbook.html">View now</a>
-				<img src="#" alt="" class="lookbook-item__picture">
+				<a class="button lookbook-item__show" href="lookbook.html">View now</a>
+				<img src="img/men-lookbook.png" alt="" class="lookbook-item__picture">
 			</article>
 
 			<article class="lookbook__item lookbook-item">
@@ -320,23 +400,23 @@
 				<p class="lookbook-item__info">Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
 					Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus.
 				</p>
-				<a class="lookbook-item__show button" href="lookbook.html">View now</a>
-				<img src="#" alt="" class="lookbook-item__picture">
+				<a class="button lookbook-item__show" href="lookbook.html">View now</a>
+				<img src="img/women-lookbook.png" alt="" class="lookbook-item__picture">
 			</article>
 
 			<article class="lookbook__item lookbook-item">
 				<h3 class="lookbook-item__header"><span>Your</span> lookbook</h3>
-				<p class="lookbook-item__info">See an item you like and click the  button to add it to your lookbook where 		you can create your own perfect look.
+				<p class="lookbook-item__info">See an item you like and click the like button to add it to your lookbook where 	you can create your own perfect look.
 					It’s like your own boutique!
 				</p>
-				<a class="lookbook-item__show button" href="lookbook.html">View now</a>
-				<img src="#" alt="" class="lookbook-item__picture">
+				<a class="button lookbook-item__show" href="lookbook.html">View now</a>
+				<img src="img/your-lookbook.png" alt="" class="lookbook-item__picture">
 			</article>
 		</section>
 	</main>	
 
 	<footer class="page-footer">
-		<nav class="page-footer__nav footer-nav">
+		<nav class="page-footer__nav footer-nav container-small">
 			<div class="footer-nav__block">
 				<h3 class="footer-nav__block-label">Information</h3>
 				<ul class="footer-nav__list">
@@ -383,38 +463,40 @@
 				</ul>
 			</div>
 
-			<div class="footer-nav__block">
+			<div class="footer-nav__block footer-nav__block--contact">
 				<h3 class="footer-nav__block-label">Contact details</h3>
-				<p class="footer-nav__adress">Head Office: Avenue Fashion, 80-182 Regent Street, London.</p>
+				<p class="footer-nav__adress">Head Office: Avenue Fashion,<br> 80-182 Regent Street, London.</p>
 				<p class="footer-nav__phone">Telephone:<a href="tel:0123-456-789"> +48 537-118-414</a></p>
 				<p class="footer-nav__email">Email:<a href="mailto:700mmr@gmail.com"> 700mmr@gmail.com</a></p>
 			</div>
 		</nav>
 
-		<div class="footer-nav__middle">
+		<div class="footer-nav__middle container-small">
 			<article class="footer-nav__awards advert">
 				<p class="advert__text">Award winner</p>
 				<p class="advert__text">Fashion awards 2016</p>
 			</article>
 
 			<article class="footer-nav__social social">
-				<a href="#" class="social__fb"><img src="#" alt="facebook link"></a>
-				<a href="#" class="social__twitter"><img src="#" alt="twitter link"></a>
-				<a href="#" class="social__insta"><img src="#" alt="instagram link"></a>
-				<a href="#" class="social__pinterest"><img src="#" alt="pinterest link"></a>
+				<a href="#" class="social__fb"><img src="img/facebook.svg" height="32" alt="facebook link"></a>
+				<a href="#" class="social__twitter"><img src="img/twitter.svg" height="32" alt="twitter link"></a>
+				<a href="#" class="social__insta"><img src="img/instagram.svg" height="32" alt="instagram link"></a>
+				<a href="#" class="social__pinterest"><img src="img/pinterest.svg" height="32" alt="pinterest link"></a>
 			</article>	
 		</div>
 
 		<div class="footer-nav__bottom">
-			<p class="footer-nav__bottom-copyrights">© 2016 Avenue Fashion™</p>
+			<div class="footer-nav__bottom-wrapper container-small">
+				<p class="footer-nav__bottom-copyrights">© 2020 Somebody™</p>
 
-			<div class="footer-nav__developers">
-				<span class="footer-nav__developer">Design by RobbyDesigns.com</span>
-				<span class="footer-nav__developer">Dev by 
-					<a href="https://github.com/kisikMisik">Vladimir Nofenko</a>
-				</span>
+				<div class="footer-nav__developers">
+					<span class="footer-nav__developer">Design by RobbyDesigns.com</span>
+					<span class="footer-nav__developer">Dev by 
+						<a href="https://github.com/kisikMisik">Vladimir Nofenko</a>
+					</span>
+				</div>
 			</div>
-		</div>
+	</div>
 	</footer>
 </body>
 </html>

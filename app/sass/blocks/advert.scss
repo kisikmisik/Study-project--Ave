@@ -1,0 +1,26 @@
+
+.advert {
+    width: 100%;
+    height: 200px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.advert__text {
+    margin: 0;
+}
+
+.advert__text:first-child {
+    font-family: "monserat-bold", Arial, sans-serif;
+    margin-bottom: 18px;
+}
+
+.advert__text:nth-child(2) {
+    font-family: "monserat-semi-bold", Arial, sans-serif;
+}

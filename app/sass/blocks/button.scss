@@ -1,0 +1,22 @@
+.button {
+    display: block;
+    height: 60px;
+    width: 340px;
+    box-sizing: border-box;
+    border: 2px solid #737373;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #454647;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: "monserat-semi-bold", Arial, sans-serif;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        color: white;
+        background-color: $color-green;
+        border: none;
+    }
+}

@@ -1,0 +1,38 @@
+.lookbook-item {
+    background-color: #f8f8f8;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: right;
+}
+
+.lookbook-item__picture {
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.lookbook-item__show {
+    width: 150px;
+}
+
+.lookbook-item__header {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+}
+
+.lookbook-item__header span {
+    font-family: "monserat-bold", Arial, sans-serif;
+    display: block;
+}
+
+.lookbook-item__info {
+    width: 240px;
+    margin-bottom: 25px;
+}

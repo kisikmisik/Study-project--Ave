@@ -1,0 +1,20 @@
+.social {
+    background-color: $color-green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+
+    a {
+        margin-right: 50px;
+    }
+
+    img {
+        transition: all 0.3s;
+        &:hover {
+            transform: scale(1.2);
+        }   
+        
+    }
+}
